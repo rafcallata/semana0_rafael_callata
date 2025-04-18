@@ -1,6 +1,8 @@
 # Integración de Ollama + Deepseek con Python + Fastapi
 
-## Empezar
+Este proyecto proporciona una API REST construida con FastAPI que se conecta a un modelo local de IA (deepseek-r1) gestionado por Ollama. Permite enviar consultas en lenguaje natural y recibir respuestas generadas por el modelo.
+
+## Comenzar
 
 - Ir a https://ollama.com
 - Instalar Ollama en el sistema
@@ -8,7 +10,22 @@
 - Sírvelo como servidor en el puerto: `11434`
 - Ir a `https://github.com/ollama/ollama?tab=readme-ov-file`
 
-## Installación
+
+## Estructura del proyecto
+```bash
+├── app/                   # Carpeta principal del código
+    ├── main.py            # Archivo principal para ejecutar la aplicación
+    ├── config.py          # Configuración y carga de .env
+    ├── schemas.py         # Definición de modelos de datos (Pydantic)
+    ├── exceptions.py      # Manejadores de errores personalizados
+    └── services/
+        └── ollama.py      # Lógica de comunicación con Ollama
+├── .env                   # Archivo para gestionar variables de entorno
+├── requirements.txt       # Archivo para las dependencias del proyecto
+└── README.md              # Documento explicativo del proyecto
+```
+
+## Instalación
 
 Abra su terminal y cree un entorno virtual con el siguiente comando.
 ```shell
