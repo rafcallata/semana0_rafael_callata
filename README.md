@@ -2,7 +2,7 @@
 
 Este proyecto proporciona una API REST construida con FastAPI que se conecta a un modelo local de IA (deepseek-r1) gestionado por Ollama. Permite enviar consultas en lenguaje natural y recibir respuestas generadas por el modelo.
 
-## Comenzar
+## 🚀Comenzar
 
 - Ir a https://ollama.com
 - Instalar Ollama en el sistema
@@ -11,7 +11,7 @@ Este proyecto proporciona una API REST construida con FastAPI que se conecta a u
 - Ir a `https://github.com/ollama/ollama?tab=readme-ov-file`
 
 
-## Estructura del proyecto
+## 📂Estructura del proyecto
 ```bash
 ├── app/                   # Carpeta principal del código
     ├── main.py            # Archivo principal para ejecutar la aplicación
@@ -25,7 +25,7 @@ Este proyecto proporciona una API REST construida con FastAPI que se conecta a u
 └── README.md              # Documento explicativo del proyecto
 ```
 
-## Instalación
+## ⚙Instalación
 
 Abra su terminal y cree un entorno virtual con el siguiente comando.
 ```shell
@@ -44,7 +44,7 @@ A continuación, instale el siguiente paquete para interactuar con `ollama`.
 pip install ollama
 ```
 
-## Ejecutar API
+## ▶Ejecutar API
 Para ejecutar la aplicación, escriba el siguiente comando.
 ```shell
 uvicorn server:app --host=<host> --port=<port>
@@ -55,7 +55,7 @@ uvicorn server:app --host=127.0.0.1 --port=8000
 ```
 A continuación, visite: `http://127.0.0.1:8000/docs`
 
-## API de prueba
+## ⛏API de prueba
 Antes de probar el paquete de instalación de la API con el siguiente comando.requests
 ```shell
 pip install requests
