@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "35fd2c17-cdf1-4c33-8171-7bf8cca197ba",
+		"name": "Semana0_rafael_callata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14018924"
+	},
+	"item": [
+		{
+			"name": "Post Preguntar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"texto\": \"¿Cuál es la capital de Francia?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/preguntar",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"preguntar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
